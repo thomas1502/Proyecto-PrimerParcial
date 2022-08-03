@@ -1,0 +1,119 @@
+/* Clases para el menú */
+.header{
+    margin: auto;
+    margin-top: 20px;
+    width: 1000px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul, ol{
+    list-style: none;    
+}
+
+.nav li a{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 94, 47);
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 18px;
+    display: block;
+}
+
+.nav li a:hover{
+    color: rgb(121, 159, 121); 
+}
+
+.nav > li {
+    float: left;
+}
+
+.nav li ul {
+    display:none;
+    position:absolute;
+    min-width: 140px;
+}
+
+.nav li:hover > ul{
+    display: block;
+}
+
+/* Clases para la división entre menú y main */
+
+.BackGroundMenu{
+    background-color: rgb(32, 29, 29);
+    width: auto;
+}
+
+.MenuDivision{
+    margin-top: 20px;
+    background-color: rgb(229, 229, 229);
+    width: auto;
+    height: 1px;    
+}
+
+/* Clases para main de la página */
+.info1{
+    margin-top: 125px;
+}
+
+.columna1-imagen-info1{
+    margin-left: 350px;
+}
+
+.columna1-titulo1-info1{
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 200px;   
+    width: auto;
+}
+
+.columna1-parrafo-info1{
+    margin-top: 5px;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 200px;   
+    width: auto;
+}
+
+.columna1-titulo2-info1{
+    margin-top: 15px;
+    font-size: 27px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 200px;   
+    width: auto;
+}
+
+.btn{
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 4px 19px;
+    display: inline-block;
+
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
+    box-shadow: 0 1px 0 rgba(0,0,0,0.3);
+}
+
+.columna1-button-info1{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 112, 65);
+
+    font-size: 25px;
+    margin-top: 15px;
+    margin-left: 300px;      
+}
+
+.columna1-button-info1:hover{
+    padding: 12px 30px;
+    margin-top: 15px;
+    margin-left: 290px;  
+
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 112, 65);
+}
+
+.columna2-imagen-info1{
+    margin-left: 110px;
+}
