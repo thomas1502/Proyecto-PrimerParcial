@@ -117,3 +117,99 @@ ul, ol{
 .columna2-imagen-info1{
     margin-left: 110px;
 }
+
+/* Clases para el pre-footer */
+.prefooter{
+    margin: auto;
+    margin-bottom: 40px;
+    padding: 60px;
+    width: auto;
+
+    background-color: rgb(3, 71, 50);
+}
+
+.images-prefooter{
+    text-align: center;
+}
+
+.imagen1-prefooter{
+    margin-top: 3px;
+    margin-left: 100px;
+}
+
+.imagen2-prefooter{
+    margin-top: 10px;
+}
+
+.imagen3-prefooter{
+    margin-top: 4px;
+}
+
+/* Clases para el footer  */
+.footer{
+    margin: auto;
+    margin-bottom: 5px;
+    width:auto;
+    background-color: rgb(255, 255, 255);
+
+    text-align: center;
+}
+
+.textofooter1{    
+    color: rgb(0, 94, 47);
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.textofooter2{
+    color: rgb(102, 102, 102);
+    text-decoration: none;
+    font-size: 11px;
+
+    margin-top: 15px;
+}
+
+a{
+    color: black;
+    text-decoration:none;
+}
+
+/* Clases para titulo de calendarios */
+.titulo-calendario{
+    margin-top: 60px;
+
+    text-align: center;
+    color: rgb(51, 51, 51);
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* Clases para imagenes de calendarios */
+.calendario-diario{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.calendario-finde{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.calendario-medicina{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.calendario-odontologia{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.calendario-maestria{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.div-footer{
+    margin-top: 80px;
+}
