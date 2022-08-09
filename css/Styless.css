@@ -2,10 +2,6 @@
     font-family: 'Open Sans', Arial, sans-serif;
 }
 /* Clases para el menú */
-.search{
-    width: 70px;
-}
-
 .header{
     margin: auto;
     margin-top: 20px;
@@ -275,7 +271,7 @@ ul, ol{
 .back-revista{    
     background-color: rgb(1, 99, 59);
     width: auto;
-    height: 800px;
+    height: 940px;
 }
 
 .titulo-revista{
@@ -297,9 +293,31 @@ ul, ol{
     margin-left: 375px;
 }
 
+.titulo-carrusel1{
+    text-align: center;
+    font-size: 24px;
+    color: rgb(255,255,255);
+}
+
+.img-carrusel1{
+    margin-left: 500px;
+    width: 1000px;
+    margin-left: 50px;
+}
+
+.back{
+    width: 600px;
+    height: 700px;
+    margin-left: 450px;
+}
+
+.back:hover{
+    background-color: rgb(167, 191, 182);
+}
+
 /* Clases para Carrisel No. 2 */
 .titulo-news{
-    margin-top: 180px;
+    margin-top: 190px;
     text-align: center;
     font-size: 30px;
     font-weight: bold;
@@ -335,15 +353,15 @@ ul, ol{
 
 /* Clases para Carrusel No. 3 */
 .carrusel3{
-    margin-top: 180px;
+    margin-top: 80px;
     background-color: rgb(1, 99, 59);
     width: auto;
     height: 575px;
 }
 
 .titulo-empleo{
-    margin-top: 135px;
-    margin-left: 120px;
+    margin-top: 160px;
+    margin-left: 200px;
     text-align: center;
     font-size: 30px;
     font-weight: bold;
@@ -358,7 +376,7 @@ ul, ol{
     text-align: center;
     font-size: 17px;
     width: 487px;
-    margin-left: 22px;
+    margin-left: 100px;
 }
 
 .info-empleo{
@@ -366,7 +384,7 @@ ul, ol{
     color: white;
     text-align: center;
     font-size: 17px;
-    margin-left: 170px;
+    margin-left: 250px;
     width: 200px;
 }
 
@@ -378,22 +396,97 @@ ul, ol{
     font-size: 25px;
     font-weight: bold;
     margin-top: 32px;
-    margin-left: 190px;
+    margin-left: 270px;
 }
 
 .btn-empleo:hover{
     background-color:rgb(0, 112, 65);
     color: rgb(0, 112, 65);
 
-    padding: 12px 24px;
-    margin-left: 185px;
+    padding: 12px 22px;
+    margin-top: 25px;
+    margin-left: 265px;
 }
 
-/* .imagenes-carrusel{
-    margin-top: 75px;
-    margin-left: 100px;
-} */
+.img1-C3{
+    margin-top: 80px;
+    background-image: linear-gradient(rgb(0,0,0,0.5), rgba(0,0,0,0.5)), url(/Assets/Images/Inicio/Carrusel3/C3-img1.png);
+    height: 400px;
+    color: rgb(255,255,255);
+    text-align: center;
+}
 
+.img2-C3{
+    margin-top: 80px;
+    background-image: linear-gradient(rgb(0,0,0,0.5), rgba(0,0,0,0.5)), url(/Assets/Images/Inicio/Carrusel3/C3-img2.png);
+    height: 400px;
+    color: rgb(255,255,255);
+    text-align: center;
+}
+
+.img3-C3{
+    margin-top: 80px;
+    background-image: linear-gradient(rgb(0,0,0,0.5), rgba(0,0,0,0.5)), url(/Assets/Images/Inicio/Carrusel3/c3-img3.png);
+    height: 400px;
+    color: rgb(255,255,255);
+    text-align: center;
+}
+
+.img4-C3{
+    margin-top: 80px;
+    background-image: linear-gradient(rgb(0,0,0,0.5), rgba(0,0,0,0.5)), url(/Assets/Images/Inicio/Carrusel3/c3-img4.png);
+    height: 400px;
+    color: rgb(255,255,255);
+    text-align: center;
+}
+
+.img5-C3{
+    margin-top: 80px;
+    background-image: linear-gradient(rgb(0,0,0,0.5), rgba(0,0,0,0.5)), url(/Assets/Images/Inicio/Carrusel3/C3-img5.png);
+    height: 400px;
+    color: rgb(255,255,255);
+    text-align: center;
+}
+
+.img6-C3{
+    margin-top: 80px;
+    background-image: linear-gradient(rgb(0,0,0,0.5), rgba(0,0,0,0.5)), url(/Assets/Images/Inicio/Carrusel3/C3-img1.png);
+    height: 400px;
+    color: rgb(255,255,255);
+    text-align: center;
+}
+
+.img7-C3{
+    margin-top: 80px;
+    background-image: linear-gradient(rgb(0,0,0,0.5), rgba(0,0,0,0.5)), url(/Assets/Images/Inicio/Carrusel3/c3-img3.png);
+    height: 400px;
+    color: rgb(255,255,255);
+    text-align: center;
+}
+
+.img8-C3{
+    margin-top: 80px;
+    background-image: linear-gradient(rgb(0,0,0,0.5), rgba(0,0,0,0.5)), url(/Assets/Images/Inicio/Carrusel3/C3-img7.png);
+    height: 400px;
+    color: rgb(255,255,255);
+    text-align: center;
+}
+
+.img9-C3{
+    margin-top: 80px;
+    background-image: linear-gradient(rgb(0,0,0,0.5), rgba(0,0,0,0.5)), url(/Assets/Images/Inicio/Carrusel3/C3-img4.png);
+    height: 400px;
+    color: rgb(255,255,255);
+    text-align: center;
+}
+
+.img10-C3{
+    margin-top: 80px;
+    background-image: linear-gradient(rgb(0,0,0,0.5), rgba(0,0,0,0.5)), url(/Assets/Images/Inicio/Carrusel3/C3-img6.jpg);
+    height: 400px;
+    color: rgb(255,255,255);
+    text-align: center;
+}
 /* Clases sección de Redes Sociales */
 .titulo-redes{
     margin-top: 70px;
@@ -603,4 +696,116 @@ a{
 
 .spacefooternews{
     margin-top: 70px;
+}
+
+/* Clases para carrusel 2 */
+.img1-C2{
+    margin-top: 80px;
+    background-image: linear-gradient(rgb(0,0,0,0.5), rgba(0,0,0,0.5)), url(/Assets/Images/Inicio/Carrusel2/C2-img5.png);
+    height: 400px;
+    color: rgb(255,255,255);
+    text-align: center;
+}
+
+.img2-C2{
+    margin-top: 80px;
+    background-image: linear-gradient(rgb(0,0,0,0.5), rgba(0,0,0,0.5)), url(/Assets/Images/Inicio/Carrusel2/C2-img6.jpg);
+    height: 400px;
+    color: rgb(255,255,255);
+    text-align: center;
+}
+
+.img3-C2{
+    margin-top: 80px;
+    background-image: linear-gradient(rgb(0,0,0,0.5), rgba(0,0,0,0.5)), url(/Assets/Images/Inicio/Carrusel2/C2-img7.jpg);
+    height: 400px;
+    color: rgb(255,255,255);
+    text-align: center;
+}
+
+.img4-C2{
+    margin-top: 80px;
+    background-image: linear-gradient(rgb(0,0,0,0.5), rgba(0,0,0,0.5)), url(/Assets/Images/Inicio/Carrusel2/C2-img8.jpg);
+    height: 400px;
+    color: rgb(255,255,255);
+    text-align: center;
+}
+
+.img5-C2{
+    margin-top: 80px;
+    background-image: linear-gradient(rgb(0,0,0,0.5), rgba(0,0,0,0.5)), url(/Assets/Images/Inicio/Carrusel2/C2-img9.jpg);
+    height: 400px;
+    color: rgb(255,255,255);
+    text-align: center;
+}
+
+.img6-C2{
+    margin-top: 80px;
+    background-image: linear-gradient(rgb(0,0,0,0.5), rgba(0,0,0,0.5)), url(/Assets/Images/Inicio/Carrusel2/C2-img1.png);
+    height: 400px;
+    color: rgb(255,255,255);
+    text-align: center;
+}
+
+.img7-C2{
+    margin-top: 80px;
+    background-image: linear-gradient(rgb(0,0,0,0.5), rgba(0,0,0,0.5)), url(/Assets/Images/Inicio/Carrusel2/C2-img2.png);
+    height: 400px;
+    color: rgb(255,255,255);
+    text-align: center;
+}
+
+.img8-C2{
+    margin-top: 80px;
+    background-image: linear-gradient(rgb(0,0,0,0.5), rgba(0,0,0,0.5)), url(/Assets/Images/Inicio/Carrusel2/C2-img3.jpg);
+    height: 400px;
+    color: rgb(255,255,255);
+    text-align: center;
+}
+
+.img9-C2{
+    margin-top: 80px;
+    background-image: linear-gradient(rgb(0,0,0,0.5), rgba(0,0,0,0.5)), url(/Assets/Images/Inicio/Carrusel2/C2-img3.jpg);
+    height: 400px;
+    color: rgb(255,255,255);
+    text-align: center;
+}
+
+.img10-C2{
+    margin-top: 80px;
+    background-image: linear-gradient(rgb(0,0,0,0.5), rgba(0,0,0,0.5)), url(/Assets/Images/Inicio/Carrusel2/C2-img4.jpg);
+    height: 400px;
+    color: rgb(255,255,255);
+    text-align: center;
+}
+
+.titulo-carrusel2{
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+    
+    width: 400px;    
+    text-align: center;
+}
+
+.txt-carrusel2{
+    font-size: 14px;
+    color: white;
+
+    margin-top: 15px;
+    width: 435px;
+    margin-left: 110px;
+    text-align: center;
+}
+
+.btn-carrusel2{
+    background-color:rgb(255, 255, 255);
+    color: rgb(0, 112, 65);
+    padding: 10px 15px;
+    text-align: center;
+
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 8px;    
+    border: 0px;
 }
